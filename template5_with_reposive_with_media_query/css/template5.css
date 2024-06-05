@@ -1,0 +1,1640 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding: 30px 40px;
+    background-color: white;
+}
+
+.E-PORA {
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-first-div {
+    width: 100%;
+}
+
+.btnCategories {
+    padding: 15px;
+    background-color: rgba(255, 102, 82, 255);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.btnCategories i {
+    padding-left: 5px;
+}
+
+.Search {
+    float: right;
+    padding: 15px;
+    border: 0px;
+}
+
+.Search-div-660px {
+    display: none;
+}
+
+.header-search-box {
+    border-radius: 5px;
+    background-color: rgba(244, 247, 246, 255);
+}
+
+.header-search-button {
+    background-color: rgba(36, 93, 80, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+.header-second-line {
+    padding-top: 30px;
+}
+
+.header-second-line a {
+    text-decoration: none;
+    color: #777c8f;
+    font-weight: bold;
+}
+
+.header-second-line-other-a {
+    padding-left: 45px;
+}
+
+.header-second-line-first-a {
+    padding-left: 0px;
+}
+
+.header-second-line-icon {
+    padding: 20px;
+    float: right;
+    border-radius: 50%;
+    color: rgba(36, 93, 80, 255);
+    background-color: rgba(244, 247, 246, 255);
+    margin-top: -23px;
+}
+
+.header-second-line-icon-user {
+    margin-right: 10px;
+}
+
+.learn-new-skill img {
+    height: auto;
+    width: 100%;
+}
+
+.key-supporters {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.our-supporter-heading {
+    text-align: center;
+    font-size: 30px;
+}
+
+.acadamy-name {
+    text-align: center;
+
+}
+
+.acadamy-name a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+}
+
+.acadamy-name-first-a {
+    margin-left: 0px;
+}
+
+.acadamy-name-other-a {
+    margin-left: 100px;
+}
+
+.creative-class {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.creative-class-image {
+    width: 60%;
+}
+
+.img-creative-class {
+    width: 100%;
+    height: 100%;
+}
+
+.creative-class-about-us {
+    width: 40%;
+    padding-left: 10px;
+}
+
+.creative-class-btnaboutus {
+    background-color: rgba(255, 239, 237, 255);
+    color: rgba(255, 103, 83, 255);
+    border: 0px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.creative-class-about-us h1 {
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.creative-class-paragraph {
+    color: #777c8f;
+}
+
+.four-details {
+    font-weight: bold;
+}
+
+.four-details i {
+    color: rgba(80, 125, 114, 255);
+    background-color: rgba(233, 238, 237, 255);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.four-details-second-i {
+    padding-left: 50px;
+}
+
+.four-details-btnReadMore {
+    background-color: rgba(255, 102, 82, 255);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.categories {
+    padding: 30px;
+}
+
+.all-categories-div {
+    margin-left: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.btntop-categoris {
+    background-color: rgba(255, 239, 237, 255);
+    color: rgba(255, 102, 82, 255);
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.categories-p {
+    color: gray;
+}
+
+.firstline-categories {
+    display: flex;
+}
+
+.firstline-categories i {
+    color: rgba(255, 102, 82, 255);
+    font-size: 25px;
+}
+
+.first-line-category-first-div {
+    margin-left: 30px;
+}
+
+.categories-heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.firstline-categories div {
+    width: 25%;
+
+}
+
+.secondline-categories {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.secondline-categories i {
+    color: rgba(255, 102, 82, 255);
+    font-size: 25px;
+}
+
+.secondline-categories div {
+    width: 25%;
+
+}
+
+.our-courses {
+    padding: 30px;
+    background-color: rgba(247, 250, 250, 255);
+}
+
+.btn-our-courses {
+    color: rgba(255, 102, 82, 255);
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(255, 239, 237, 255);
+    font-weight: bold;
+}
+
+.courses-heading {
+    width: 100%;
+}
+
+.courses-heading p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.courses-heading button {
+    padding: 10px;
+    background-color: rgba(255, 102, 82, 255);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.design {
+    display: flex;
+    width: 50%;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.design-side-img {
+    width: 40%;
+}
+
+.design-side-img img {
+    width: 100%;
+    height: 180px;
+}
+
+.img-side-contain {
+    width: 60%;
+    padding-left: 10px;
+
+}
+
+.img-side-contain-heading {
+    margin: 0px;
+    font-weight: bold;
+}
+
+.img-side-contain-icon {
+    color: gray;
+}
+
+.img-side-contain-icon i {
+    color: rgba(255, 102, 82, 255);
+    background-color: rgba(255, 239, 237, 255);
+    margin-left: 20px;
+}
+
+.img-side-contain-icon-340px {
+    display: none;
+}
+
+.second-side-contain-div {
+    margin-left: 20px;
+}
+
+.btndesign {
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.btndesign button {
+    float: right;
+    background-color: rgba(255, 239, 237, 255);
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    margin-top: -8px;
+}
+
+.set-two-side {
+    display: flex;
+    margin-top: 70px;
+}
+
+.video-call {
+    padding: 50px;
+}
+
+.video-call img {
+    width: 100%;
+    height: auto;
+}
+
+.video-call button {
+    background-color: rgba(255, 239, 237, 255);
+    color: rgba(255, 102, 82, 255);
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.four-features {
+    margin-top: 50px;
+    display: flex;
+}
+
+.all-feature {
+    width: 25%;
+}
+
+.all-feature i {
+    background-color: rgba(36, 93, 80, 255);
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.all-feature hr {
+    border-bottom: 2px solid red;
+    width: 40px;
+}
+
+.all-feature p {
+    color: gray;
+}
+
+.choose-us {
+    display: flex;
+    padding: 30px;
+    background-color: rgba(247, 250, 250, 255);
+}
+
+.first-div-choose-us {
+    width: 50%;
+    padding-top: 80px;
+}
+
+.second-div-choose-us {
+    width: 50%;
+}
+
+.second-div-choose-us img {
+    height: auto;
+    width: 100%;
+}
+
+.btn-choose-us {
+    background-color: rgba(255, 239, 237, 255);
+    color: rgba(255, 102, 82, 255);
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.btn-more-details {
+    padding: 10px;
+    background-color: rgba(255, 102, 82, 255);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.choose-after-heading-p {
+    color: gray;
+}
+
+.tick-in-choose {
+    margin-left: 30px;
+    font-weight: bold;
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+
+}
+
+.tick-in-choose i {
+    padding: 5px;
+    border-radius: 50%;
+    color: rgba(233, 238, 237, 255);
+    background-color: rgb(222, 220, 220);
+    color: #6a9087;
+    font-size: 12px;
+}
+
+.instructor {
+    padding: 30px;
+}
+
+.btn-instructor {
+    background-color: rgba(255, 239, 237, 255);
+    color: rgba(255, 102, 82, 255);
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.expert-info {
+    display: flex;
+
+}
+
+.expert-three-div {
+    width: 33.33%;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+}
+
+.expert-second-third-div {
+    margin-left: 20px;
+}
+
+.expert-three-div i {
+    color: rgba(255, 102, 82, 255);
+}
+
+.expert-three-div img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.expert-p {
+    color: gray;
+}
+
+.expert-p-860px {
+    display: none;
+}
+
+.expert-three-div hr {
+    border: 2px solid red;
+    width: 130px;
+}
+
+.btn-ALLinstructor {
+    padding: 10px;
+    background-color: rgba(255, 102, 82, 255);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.Testimonial {
+    padding: 30px;
+}
+
+.btn-Testimonial {
+    background-color: rgba(255, 239, 237, 255);
+    color: rgba(255, 102, 82, 255);
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.two-profiles {
+    padding: 30px;
+    display: flex;
+}
+
+.left-right-arrow {
+    float: right;
+    margin-top: -49px;
+}
+
+.left-right-arrow i {
+    background-color: rgba(255, 239, 237, 255);
+    color: rgba(255, 102, 82, 255);
+    border: 0px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.div-two-profile {
+    padding: 30px;
+}
+
+.profile-firsline-img {
+    display: flex;
+}
+
+.profile-firsline-img img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-firsline-img p {
+    color: gray;
+}
+
+.all-profile {
+    width: 50%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.all-profile p {
+    color: gray;
+    font-size: 15px;
+}
+
+.all-profile i {
+    color: rgb(209, 209, 10);
+}
+
+.second-profile {
+    margin-left: 15px;
+}
+
+.join-with-us {
+    padding: 30px;
+    background-color: rgba(247, 250, 250, 255);
+}
+
+.join-with-us button {
+    background-color: rgba(255, 239, 237, 255);
+    color: rgba(255, 102, 82, 255);
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.join-two-div {
+    margin: 30px;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.div-learn {
+    display: flex;
+}
+
+.learn-new-skill-div {
+    display: flex;
+    padding-left: 30px;
+}
+
+.learn-new-skill-details {
+    width: 50%;
+}
+
+.learn-new-skill-details mark {
+    color: lightcoral;
+    background-color: transparent;
+}
+
+.learn-new-skill-details p {
+    font-size: 13px;
+    color: gray;
+}
+
+.learn-new-skill-details button {
+    border: 1px solid lightcoral;
+    color: lightcoral;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.learn-new-skill-img {
+    width: 50%;
+}
+
+.learn-new-skill-img img {
+    height: auto;
+    width: 100%;
+}
+
+.latest-blog {
+    padding: 30px;
+}
+
+.latest-blog-three-img {
+    display: flex;
+    padding: 0px;
+}
+
+.one-blog {
+    margin-left: 30px;
+    width: 33.33%;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+}
+
+.one-blog img {
+    height: auto;
+    width: 100%;
+    border-radius: 13px;
+}
+
+.one-blog h2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.one-blog p {
+    color: gray;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.btn-allblog {
+    padding: 15px 25px;
+    background-color: rgba(255, 102, 82, 255);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.btn-latestBlog {
+    background-color: rgba(255, 239, 237, 255);
+    color: rgba(255, 102, 82, 255);
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.phone-address-email {
+    display: flex;
+}
+
+.phone-address-email i {
+    color: lightcoral;
+    padding-top: 35px;
+    padding-right: 10px;
+    font-size: 20px;
+    padding: 14px;
+    background: white;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.About-support {
+    display: flex;
+    padding: 30px;
+    background-color: rgba(247, 248, 249, 255);
+}
+
+.first-part {
+    width: 40%;
+    margin: 20px;
+}
+
+.two-part {
+
+    width: 15%;
+    margin: 20px;
+
+}
+
+.three-part {
+
+    width: 30%;
+    margin: 20px;
+}
+
+.E-PORA-description {
+    color: gray;
+    font-size: 15px;
+}
+
+.E-PORA-example {
+    font-weight: bold;
+}
+
+.two-part p {
+    color: gray;
+}
+
+.three-part p {
+    color: gray;
+}
+
+.three-part i {
+    color: lightcoral;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+footer {
+    padding: 30px;
+    background-color: rgba(247, 248, 249, 255);
+}
+
+footer a {
+    float: right;
+    margin-right: 30px;
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-360px {
+    display: none;
+}
+.footer-760px{
+    display: none;
+}
+footer i{
+    font-size: 20px;
+}
+@media only screen and (max-width:1090px) {
+    .creative-class-about-us h1 {
+        font-size: 35px;
+    }
+
+    .three-part-icon {
+        display: inline-grid;
+    }
+    .three-part i{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width:1030px) {
+    .acadamy-name-other-a {
+        margin-left: 50px;
+    }
+
+    .div-learn {
+        display: block;
+    }
+
+    .join-two-div {
+        margin: 0px;
+    }
+
+    .learn-new-skill-details h3 {
+        font-size: 45px;
+    }
+
+    .learn-new-skill-details p {
+        font-size: 25px;
+    }
+
+    .second-join-two-div {
+        margin-top: 20px;
+    }
+
+    .one-blog h2 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .creative-class-paragraph {
+        font-size: 15px;
+    }
+
+    .set-two-side {
+        display: block;
+    }
+
+    .design {
+        width: 96%;
+        margin-top: 30px;
+    }
+
+    .design-side-img {
+        width: 50%;
+    }
+
+    .img-side-contain {
+        width: 50%;
+    }
+
+    .design-side-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .set-two-side {
+        margin-top: 0px;
+    }
+
+    .second-side-contain-div {
+        margin-left: 0px;
+    }
+
+}
+
+@media only screen and (max-width:950px) {
+    .creative-class-about-us h1 {
+        font-size: 25px;
+    }
+
+    .creative-class-paragraph {
+        font-size: 12px;
+    }
+
+    .four-details {
+        font-size: 12px;
+    }
+
+    .expert-p {
+        display: none;
+    }
+
+    .expert-p-860px {
+        display: block;
+        color: gray;
+        margin-top: 12px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .video-call {
+        padding: 30px;
+    }
+
+    .first-div-choose-us h1 {
+        font-size: 25px;
+    }
+
+    .first-div-choose-us p {
+        font-size: 15px;
+    }
+    footer a {
+        margin-right: 20px;
+    }
+    
+    
+}
+
+@media only screen and (max-width:860px) {
+
+    .learn-new-skill-details h3 {
+        font-size: 30px;
+    }
+
+    .learn-new-skill-details p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .acadamy-name-other-a {
+        margin-left: 20px;
+    }
+
+    .choose-us {
+        display: block;
+    }
+
+    .first-div-choose-us {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .second-div-choose-us {
+        width: 100%;
+    }
+
+    .first-div-choose-us h1 {
+        font-size: 40px;
+    }
+
+    .first-div-choose-us p {
+        font-size: 20px;
+    }
+
+    .three-part i {
+        margin-left: 10px;
+    }
+
+    footer a {
+        margin-right: 14px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .two-profiles {
+        padding: 15px;
+    }
+
+    .About-support {
+        padding: 10px;
+    }
+    
+    footer a {
+        margin-right: 8px;
+    }
+}
+
+
+@media only screen and (max-width:760px) {
+    .header-second-line a {
+        display: block;
+        padding-top: 15px;
+    }
+
+    .header-second-line-first-a {
+        padding-left: 45px;
+    }
+
+    .header-second-line-icon {
+        margin-top: 20px;
+        float: left;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .header-second-line-icon a {
+        text-align: center;
+    }
+
+    .acadamy-name-other-a {
+        margin-left: 0px;
+        display: block;
+    }
+
+    .acadamy-name a {
+        margin-top: 15px;
+    }
+
+    .creative-class {
+        display: block;
+    }
+
+    .creative-class-image {
+        width: 100%;
+    }
+
+    .creative-class-about-us {
+        width: 97%;
+    }
+
+    .img-creative-class {
+        height: auto;
+    }
+
+    .creative-class-btnaboutus {
+        margin-top: 0px;
+    }
+
+    .creative-class-about-us h1 {
+        font-size: 45px;
+    }
+
+    .creative-class-paragraph {
+        font-size: 15px;
+    }
+
+    .four-details {
+        font-size: 15px;
+    }
+
+    .creative-class-about-us {
+        padding-left: 10px;
+    }
+
+    .About-support {
+        display: block;
+        text-align: center;
+    }
+
+    .first-part {
+        width: 100%;
+    }
+
+    .two-part {
+        width: 100%;
+    }
+
+    .three-part {
+        width: 100%;
+    }
+
+    .phone-address-email {
+        display: block;
+    }
+
+    .first-part {
+        margin: 0px;
+    }
+
+    .two-part {
+        margin: 0px;
+    }
+
+    .three-part {
+        margin: 0px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer a {
+        float: none;
+        display: block;
+        margin-top: 15px;
+    }
+
+    .phone-address-email i {
+        padding-top: 15px;
+    }
+
+    .firstline-categories {
+        display: block;
+    }
+
+    .firstline-categories div {
+        width: 90%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .secondline-categories {
+        display: block;
+    }
+
+    .secondline-categories div {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .all-categories-div {
+        margin-left: 0px;
+    }
+
+    .secondline-categories div {
+        width: 90%;
+    }
+    .three-part-icon {
+        display: block;
+    }
+    .three-part i{
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    .footer-760px{
+        display: block;
+    }
+    .normal-footer{display: none;}
+}
+
+@media only screen and (max-width:730px) {
+    .first-line-category-first-div {
+        margin-left: 0px;
+    }
+
+    .courses-heading p {
+        display: grid;
+        justify-items: start;
+    }
+
+    .courses-heading button {
+        margin-top: 15px;
+    }
+
+    .our-courses {
+        padding: 20px;
+    }
+
+    .two-profiles {
+        display: block;
+    }
+
+    .all-profile {
+        width: 100%;
+    }
+
+    .second-profile {
+        margin-top: 40px;
+    }
+
+    .all-profile {
+        width: 90%;
+    }
+
+    .second-profile {
+        margin-left: 0px;
+    }
+
+
+}
+
+@media only screen and (max-width:670px) {
+    .img-side-contain-icon-340px i {
+        color: rgba(255, 102, 82, 255);
+        background-color: rgba(255, 239, 237, 255);
+        margin-left: 0px;
+    }
+
+    .img-side-contain-icon-340px {
+        color: gray;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .img-side-contain-icon {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:660px) {
+    header {
+        padding: 20px;
+    }
+
+    .Search-div-660px {
+        display: block;
+        float: left;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .Search-660px {
+        padding: 15px;
+        border: 0px;
+    }
+
+    .Search {
+        display: none;
+    }
+
+    .header-second-line-first-a {
+        padding-left: 5px;
+    }
+
+    .header-second-line-other-a {
+        padding-left: 5px;
+    }
+
+    .learn-new-skill {
+        margin-top: 60px;
+    }
+
+    .video-call {
+        padding: 20px;
+    }
+
+    .expert-info {
+        display: block;
+    }
+
+    .expert-three-div {
+        width: 100%;
+    }
+
+    .expert-p {
+        display: block;
+    }
+
+    .expert-p-860px {
+        display: none;
+    }
+
+    .expert-second-third-div {
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .learn-new-skill-details h3 {
+        font-size: 25px;
+    }
+
+    .learn-new-skill-details p {
+        font-size: 15px;
+    }
+
+    .latest-blog-three-img {
+        display: block;
+    }
+
+    .one-blog {
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+
+
+}
+
+@media only screen and (max-width:600px) {
+
+    .four-features {
+        display: block;
+    }
+
+    .all-feature {
+        width: 100%;
+    }
+
+    .first-div-choose-us h1 {
+        font-size: 30px;
+    }
+
+    .first-div-choose-us p {
+        font-size: 15px;
+    }
+
+    .choose-us {
+        padding: 15px;
+    }
+
+    .learn-new-skill-details h3 {
+        font-size: 25px;
+    }
+
+    .learn-new-skill-details p {
+        font-size: 12px;
+    }
+
+    .latest-blog {
+        padding: 10px;
+    }
+
+    .design {
+        display: block;
+        width: 92%;
+    }
+
+    .design-side-img {
+        width: 100%;
+    }
+
+    .img-side-contain {
+        width: 100%;
+    }
+
+    .design-side-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-side-contain-heading {
+        margin-top: 15px;
+    }
+
+    .img-side-contain {
+        padding-left: 0px;
+    }
+
+    .img-side-contain-heading {
+        font-size: 25px;
+    }
+
+    .img-side-contain-icon-340px {
+        display: none;
+    }
+
+    .img-side-contain-icon {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:530px) {
+
+    .our-supporter-heading {
+        font-size: 25px;
+    }
+
+    .creative-class-about-us h1 {
+        font-size: 30px;
+    }
+
+    .creative-class-paragraph {
+        font-size: 12px;
+    }
+
+    .four-details {
+        font-size: 12px;
+    }
+
+    .courses-heading p {
+        font-size: 30px;
+    }
+
+    .video-call-heading {
+        font-size: 20px;
+    }
+
+    .learn-new-skill-div {
+        display: block;
+    }
+
+    .learn-new-skill-details {
+        width: 100%;
+    }
+
+    .learn-new-skill-img {
+        width: 100%;
+    }
+
+    .learn-new-skill-details h3 {
+        font-size: 35px;
+        padding-top: 20px;
+    }
+
+    .learn-new-skill-details p {
+        font-size: 20px;
+    }
+
+    .join-with-us {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    .left-right-arrow {
+        float: left;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .heading-100categories {
+        font-size: 25px;
+    }
+
+    .categories {
+        padding: 20px;
+    }
+
+    .first-div-choose-us h1 {
+        font-size: 25px;
+    }
+
+    .first-div-choose-us p {
+        font-size: 12px;
+    }
+
+    .heading-happy-student {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width:400px) {
+    .Search-div-660px {
+        display: inline-grid;
+    }
+
+    .E-PORA-div {
+        width: 100%;
+        display: inline-grid;
+    }
+
+    .E-PORA {
+        text-align: center;
+    }
+
+    header {
+        padding: 10px
+    }
+
+    .header-second-line {
+        margin-top: 72px;
+    }
+
+    .learn-new-skill {
+        margin-top: 70px;
+    }
+
+    .courses-heading p {
+        font-size: 20px;
+    }
+
+    .all-feature i {
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    .all-feature h1 {
+        font-size: 20px;
+    }
+
+    .all-feature p {
+        font-size: 14px;
+    }
+
+    .heading-our-inspector {
+        font-size: 20px;
+    }
+
+    .learn-new-skill-details h3 {
+        font-size: 25px;
+    }
+
+    .learn-new-skill-details p {
+        font-size: 15px;
+    }
+
+    .heading-joining-us {
+        font-size: 20px;
+    }
+
+    .tick-in-choose {
+        font-size: 11.5px;
+    }
+}
+
+@media only screen and (max-width:390px) {
+    .img-side-contain-heading {
+        font-size: 18.5px;
+    }
+
+    .div-two-profile {
+        padding: 0px;
+    }
+
+    .second-profile {
+        margin-left: 0px;
+    }
+
+    .img-side-contain-icon-340px {
+        display: block;
+    }
+
+    .img-side-contain-icon {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:340px) {
+    .img-side-contain-icon-340px i {
+        color: rgba(255, 102, 82, 255);
+        background-color: rgba(255, 239, 237, 255);
+        margin-left: 0px;
+    }
+
+    .img-side-contain-icon-340px {
+        color: gray;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .img-side-contain-icon {
+        display: none;
+    }
+
+    .btndesign {
+        display: grid;
+    }
+
+    .btndesign button {
+        margin-top: 10px;
+    }
+
+    .first-div-choose-us h1 {
+        font-size: 20px;
+    }
+
+    .first-div-choose-us p {
+        font-size: 10px;
+    }
+
+    .expert-p {
+        display: none;
+    }
+
+    .expert-p-860px {
+        display: block;
+    }
+
+    .heading-joining-us {
+        font-size: 18px;
+    }
+
+    .normal-footer {
+        display: none;
+    }
+
+    .footer-360px {
+        display: block;
+    }
+
+    .all-profile {
+        width: 88%;
+    }
+
+    .four-details-btnReadMore {
+        padding: 10px 15px;
+    }
+    .footer-760px{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .creative-class-about-us h1 {
+        font-size: 20px;
+    }
+
+    .creative-class-paragraph {
+        font-size: 10px;
+    }
+
+    .four-details {
+        font-size: 10px;
+    }
+
+    .creative-class-about-us {
+        margin: 0px;
+
+    }
+
+    .img-side-contain-heading {
+        font-size: 15px;
+    }
+
+    .courses-heading p {
+        font-size: 15px;
+    }
+
+    .video-call-heading {
+        font-size: 16px;
+    }
+
+    .first-div-choose-us h1 {
+        font-size: 18px;
+    }
+
+    .first-div-choose-us p {
+        font-size: 8px;
+    }
+
+    .Instructor-courtney-henry {
+        font-size: 20px;
+    }
+
+    .instructor {
+        padding: 10px;
+    }
+
+    .learn-new-skill-details h3 {
+        font-size: 20px;
+    }
+
+    .learn-new-skill-details p {
+        font-size: 12px;
+    }
+
+    .heading-joining-us {
+        font-size: 15px;
+    }
+
+    .E-PORA-example {
+        font-size: 12px;
+    }
+
+    .tick-in-choose {
+        font-size: 8px;
+    }
+
+    .expert-three-div {
+        width: 90%;
+    }
+
+    .categories {
+        padding-left: 10px;
+    }
+}

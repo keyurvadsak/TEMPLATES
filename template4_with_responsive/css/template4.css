@@ -1,0 +1,1239 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    background-color: white;
+    border-bottom: 1px solid #e2e2e2;;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+
+.first-a {
+    display: inline-block;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.first-a span {
+    vertical-align: bottom;
+}
+
+.first-a img {
+    height: 35px;
+    margin-right: 10px;
+}
+
+.other-a {
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.other-a:hover {
+    letter-spacing: 3px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav span {
+    vertical-align: super;
+    text-decoration: none;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 5px;
+    margin-bottom: 4px;
+}
+
+.right-a {
+    float: right;
+    margin-right: 100px;
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+.sign-in {
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.sign-in:hover {
+    background-color: #e2e2e2;
+}
+
+.start-for-free {
+    padding: 10px;
+    background-color: #2e55fb;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.start-for-free:hover {
+    background-color: #e2e2e2;
+    color: black;
+    border: 1px solid #ddd;
+}
+
+.build-customer {
+    display: flex;
+    width: 100%;
+    margin-bottom: 80px;
+    padding-top: 85px;
+}
+
+.div-first-part {
+    display: inline-block;
+    width: 55%;
+    padding-left: 100px;
+    padding-top: 70px;
+    padding-right: 20px;
+}
+
+.platform {
+    color: rgb(97, 97, 97);
+    font-weight: 700;
+}
+
+.big-heading {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.big-heading-decription {
+    font-size: 20px;
+    text-align: left;
+    padding-right: 260px;
+    line-height: 1.8;
+    color: rgb(104, 102, 102);
+    margin-bottom: 40px;
+}
+
+.a-free {
+    background-color: #2e55fb;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.a-free:hover {
+    background-color: #e2e2e2;
+    color: black;
+}
+
+.a-sales {
+    border: 1px solid #ddd;
+    color: black;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.a-sales:hover {
+    background-color: #e2e2e2;
+}
+
+.green-tick {
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.green-tick i {
+    border-radius: 50%;
+    background-color: white;
+    color: #1ba96d;
+    font-size: larger;
+    margin-right: 5px;
+}
+
+.second {
+    padding-left: 20px;
+}
+
+.div-second-part {
+    width: 45%;
+}
+
+.div-second-part img {
+    margin-top: -2px;
+    width: 100%;
+    height: 100%;
+}
+
+.trusted {
+    text-align: center;
+    font-size: 20px;
+    color: #94959c;
+}
+
+.trusted-icon {
+    text-align: center;
+    font-size: 28px;
+    color: #94959c;
+}
+
+.trusted-icon i {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 3px;
+}
+
+.trusted-icon i:hover {
+    opacity: 0.5;
+}
+
+.your-bussiness {
+    border: 1px solid #e2e2e2;
+    width: auto;
+    border-radius: 15px;
+    margin: 70px;
+}
+
+.business-heading {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.business-description {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}   
+
+.sales-efficiency {
+    margin: 10px 100px;
+    width: auto;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 35px;
+}
+
+.efficiency-in-two-part {
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.first-part-sales {
+    width: 55%;
+    padding-left: 50px;
+}
+
+.second-part-sales {
+    width: 45%;
+}
+
+.second-part-sales img {
+    width: 100%;
+    height: 100%;
+}
+
+.sales-first-heading {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.sales-description {
+    color: #9e9ea4;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.a-sales-learn-more {
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: 700;
+    border: 1px solid #2e55fb;
+    text-decoration: none;
+    color: #2e55fb;
+}
+
+.a-sales-learn-more:hover {
+    background-color: #ddd;
+    color: black;
+    border: 1px solid #ddd;
+}
+
+.div-revenue-reduce-cost {
+    margin: 10px 100px;
+    width: auto;
+    margin-bottom: 35px;
+}
+
+.revenue-reduce-in-two-part {
+    display: flex;
+    width: 100%;
+}
+
+.revenue-first-part {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 50%;
+    margin-right: 10px;
+    padding-left: 30px;
+}
+
+.reduce-second-part {
+    border: 1px solid #ddd;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 30px;
+}
+
+.revenue-heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.revenue-description {
+    color: #9e9ea4;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.a-revenue-learn-more {
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: 700;
+    border: 1px solid #2e55fb;
+    text-decoration: none;
+    color: #2e55fb;
+}
+
+.a-revenue-learn-more:hover {
+    background-color: #ddd;
+    color: black;
+    border: 1px solid #ddd;
+}
+
+.revenue-first-part img {
+    padding-top: 40px;
+    width: 100%;
+    height: auto;
+}
+
+.reduce-heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.reduce-description {
+    color: #9e9ea4;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.a-reduce-learn-more {
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: 700;
+    border: 1px solid #2e55fb;
+    text-decoration: none;
+    color: #2e55fb;
+}
+
+.a-reduce-learn-more:hover {
+    background-color: #ddd;
+    color: black;
+    border: 1px solid #ddd;
+}
+
+.reduce-second-part img {
+    padding-top: 40px;
+    width: 100%;
+    height: auto;
+}
+
+.self-service {
+    padding: 70px;
+    width: auto;
+}
+
+.self-service-two-part {
+    display: flex;
+    width: 100%;
+}
+
+.self-service-first {
+    width: 40%;
+
+}
+
+.self-service-first img {
+    width: 100%;
+    height: 100%;
+}
+
+.self-service-second {
+    margin: 30px;
+    width: 60%;
+}
+
+.self-service-heading {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.self-service p {
+    font-size: 18px;
+}
+
+.self-service-second p i {
+    color: #1ba96d;
+    font-size: x-large;
+}
+
+.self-service-last-p {
+    margin-bottom: 50px;
+}
+
+.a-self-get-started {
+    padding: 20px;
+    border: 1px solid #2e55fb;
+    color: #2e55fb;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 40px;
+}
+.a-self-get-started:hover{
+    background-color: #ddd;
+    color: black;
+    border: #ddd;
+}
+
+.digital-sales{
+    padding: 70px;
+    width: auto;
+}
+.digital-sales-heading{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.digital-sales-description{
+    color: #8d8d96;
+    margin-bottom: 30px;
+}
+.digital-sales-two-part{
+    display: flex;
+    width: 100%;
+}
+.digital-sales-first{
+    width:50%;
+    margin-right: 15px;
+    
+}
+.digital-sales-first p{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.digital-sales-first p i{
+    padding-top: 5px;
+    float: right;
+}
+.digital-sales-first p:hover{
+    border: 2px solid #99b0f7;
+    
+}
+.digital-sales-first p span{
+    display: none;
+    color: #82818a;
+    font-size: medium;
+    font-weight: normal;
+    text-align: justify;
+}
+.digital-sales-first p:hover span{
+    display: contents;
+}
+
+.digital-sales-second{
+    width: 50%;
+    margin-left: 15px;
+}
+.digital-sales-second img{
+    height: 100%;
+    width: 100%;
+}
+.customer-success{
+    padding: 70px;
+    width: auto;
+}
+.customer-success-heading{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.customer-success-description{
+    color: #8d8d96;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.customer-success-two-part{
+    display: flex;
+    width: 100%;
+    margin-bottom: 85px;
+}
+.customer-success-first{
+    width: 50%;
+    padding: 20px;
+    margin-right: 20px;
+    border: 1px solid #e2e2e4;
+    border-radius: 10px;
+}
+.customer-success-first p{
+    font-size: 22px;
+}
+.customer-success-first p i{
+    font-size: xx-large
+}
+.logo{
+    font-size: xx-large;
+} 
+.customer-success-first p img{
+    float: left;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.profile-first{
+    margin-top: 50px;
+}
+.name{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.bussiness-manager{
+    font-size: medium;
+    margin-left: 10px;
+    color: #83848c;
+}
+
+.customer-success-second{
+    width: 50%;
+    padding: 20px;
+    margin-left: 20px;
+    border: 1px solid #e2e2e4;
+    border-radius: 10px;
+}
+.customer-success-second p{
+    font-size: 22px;
+}
+.customer-success-second p i{
+    font-size: xx-large
+}
+.customer-success-second p img{
+    float: left;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.a-see-all-story{
+    text-align: center;
+}
+.a-see-all-story a{
+    text-decoration: none;
+    color: #2e55fb;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 2px solid #2e55fb;
+}
+
+.a-see-all-story a:hover{
+    background-color: #ddd;
+    color: black;
+    border: #ddd;
+}
+.sales-success{
+    margin: 70px;
+    width: auto;
+    background-color: #2e55fb;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+.sales-success p{
+    text-align: center;
+}
+.sales-success-first-p{
+    font-size: 50px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: white;
+}
+.sales-success p a{
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.sales-success p a:hover{
+    background-color: white;
+    color: #2e55fb;
+}
+.a-sales-success{
+    margin-bottom: 50px;
+}
+
+.products-company{
+    padding: 70px;
+    width: auto;
+}
+
+.products-company p i{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    color: #6f707b;
+
+}
+.provi-logo{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d3d3d3;
+    margin-top: 0px;
+}
+.divide-in-four{
+    display: flex;
+    width: 100%;
+}
+.divide-in-four div p{
+    font-weight: bold;
+}
+.product{
+    width: 23%;
+}
+.company{
+    width: 23%;
+}
+.resources{
+    width:23%;
+}
+.newsletters{
+    width: 31%;
+}
+.first-p{
+    color: #787981;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.newsletters form input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 1px solid #d8dadd;
+}
+.btn-newsletter{
+    background-color: #2e55fb;
+    color: white;
+}
+.btn-newsletter:hover{
+    background-color: #ddd;
+    color: black;
+}
+.copy-right{
+    padding: 0px 70px;
+    width: auto;
+}
+.divide-in-two-part{
+    display: flex; 
+    width: 100%;
+}
+.first{
+    width: 50%;
+}
+.second-copy{
+    float: right;
+    width: 50%;
+}
+.second-copy span{
+    float: right;
+    margin-right: 15px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+@media only screen and (max-width:1220px) {
+    .trusted-icon i {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:1190px) {
+    .right-a {
+        margin-right: 80px;
+    }
+}
+
+@media only screen and (max-width:1170px) {
+    .other-a {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width:1110px) {
+    .other-a {
+        margin-left: 30px;
+    }
+
+    .big-heading {
+        font-size: 50px;
+    }
+
+    .big-heading-decription {
+        padding-right: 100px;
+    }
+
+}
+
+@media only screen and (max-width:1100px) {
+    .self-service-two-part {
+        display: block;
+    }
+
+    .self-service-first {
+        width: 100%;
+    }
+
+    .self-service-first img {
+        height: auto;
+    }
+
+    .self-service-second {
+        width: auto;
+        margin: 0px;
+    }
+
+
+}
+
+@media only screen and (max-width:1090px) {
+    .trusted-icon i {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width:1070px) {
+    .other-a {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:1040px) {
+    .trusted-icon i span {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1010px) {
+    .other-a {
+        margin-left: 12px;
+    }
+
+    .efficiency-in-two-part {
+        display: block;
+    }
+
+    .second-part-sales {
+        width: 100%;
+    }
+
+    .first-part-sales {
+        width: auto;
+        padding-left: 15px;
+    }
+
+    .second-part-sales img {
+        height: auto;
+    }
+
+    .sales-efficiency {
+        margin: 10px 50px;
+    }
+
+    .your-bussiness {
+        margin: 40px;
+    }
+
+    .div-revenue-reduce-cost {
+        margin: 20px 50px;
+    }
+
+    .self-service {
+        padding: 40px;
+    }
+    .digital-sales{
+        padding: 40px;
+    }
+    .customer-success {
+        padding: 40px;
+    }
+    .sales-success{
+        margin: 40px;
+    }
+    .products-company{
+        padding: 40px;
+    }
+    .copy-right{
+        padding: 0px 40px;
+    }
+}
+
+@media only screen and (max-width:970px) {
+    .right-a {
+        margin-right: 60px;
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .right-a {
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width:930px) {
+    .right-a {
+        margin-right: 20px;
+    }
+
+    .revenue-reduce-in-two-part {
+        display: block;
+    }
+
+    .revenue-first-part {
+        width: auto;
+        margin-right: 0px;
+    }
+
+    .reduce-second-part {
+        width: auto;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+
+}
+
+@media only screen and (max-width:910px) {
+    .right-a {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width:890px) {
+    header{
+        position: relative;
+        width: auto;
+    }
+    nav {
+        text-align: center;
+    }
+
+    .other-a {
+        display: block;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .right-a {
+        float: none;
+        margin-right: 20px;
+        text-align: center
+    }
+
+    .sign-in {
+
+        display: block;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .start-for-free {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+
+    .build-customer {
+        display: block;
+        padding-top: 0px;
+    }
+
+    .div-second-part {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .div-first-part {
+        width: auto;
+        padding-left: 50px;
+    }
+
+    .div-second-part img {
+        height: auto;
+    }
+}
+@media only screen and (max-width:850px) {
+    .digital-sales-two-part {
+        display: block;
+    }
+    .digital-sales-first {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .digital-sales-second {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .digital-sales-second img{
+        height: auto;
+    }
+}
+@media only screen and (max-width:800px) {
+    .business-description {
+        font-size: 15px;
+    }
+
+    .business-heading {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width:750px) {
+    .customer-success-two-part {
+        display: block;
+        margin-bottom: 85px;
+    }
+    .customer-success-first {
+        width: auto;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+    .customer-success-second {
+        width: auto;
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width:730px) {
+    .digital-sales-heading {
+        font-size: 30px;
+    }
+    .customer-success-heading {
+        font-size: 30px;
+    }
+    .sales-success-first-p{
+        font-size: 30px;
+    }
+    .sales-success-second-p{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width:710px) {
+    .divide-in-two-part {
+        display: block;
+    }
+    .first {
+        width: 100%;
+        text-align: center;
+    }
+    .second-copy{
+        width: 100%;
+        text-align: center;
+    }
+    .second-copy span{
+        text-align: center;
+        width: 100%;
+    }
+    .second-copy span {
+        float: right;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+    
+}
+@media only screen and (max-width:700px) {
+    .a-self-get-started {
+        text-align: center;
+    }
+    .divide-in-four{
+        display: block;
+    }
+    .product {
+        width: 100%;
+        text-align: center;
+    }
+    .company {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .resources {
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .newsletters {
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .first-p {
+        font-size: 20px;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 0px;
+        padding-bottom: 15px;
+    }
+    
+    
+}
+
+@media only screen and (max-width:630px) {
+    .self-service-heading {
+        font-size: 30px;
+    }
+    
+}
+
+@media only screen and (max-width:560px) {
+    .sales-efficiency {
+        margin: 10px 25px;
+    }
+
+    .your-bussiness {
+        margin: 25px;
+    }
+
+    .div-revenue-reduce-cost {
+        margin: 20px 25px;
+    }
+
+    .self-service {
+        padding: 25px;
+    }
+    .digital-sales{
+        padding: 25px;
+    }
+    .customer-success {
+        padding: 25px;
+    }
+    .sales-success{
+        margin: 25px;
+    }
+    .products-company{
+        padding: 25px;
+    }
+    .copy-right{
+        padding: 0px 25px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .big-heading {
+        font-size: 30px;
+    }
+
+    .div-first-part {
+        text-align: center;
+        display: inline-block;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .big-heading-decription {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .green-tick {
+        display: block;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .second {
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width:420px) {
+    .sales-success-first-p{
+        font-size: 20px;
+    }
+    .sales-success-second-p{
+        font-size: 20px;
+    }
+    .sales-success p a{
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .digital-sales-first p {
+        padding-left: 0px;
+    }   
+}
+@media only screen and (max-width:370px) {
+    .sales-efficiency {
+        margin: 10px 15px;
+    }
+
+    .your-bussiness {
+        margin: 15px;
+    }
+
+    .div-revenue-reduce-cost {
+        margin: 20px 15px;
+    }
+
+    .self-service {
+        padding: 15px;
+    }
+    .digital-sales{
+        padding: 15px;
+    }
+    .customer-success {
+        padding: 15px;
+    }
+    .sales-success{
+        margin: 15px;
+    }
+    .products-company{
+        padding: 15px;
+    }
+    .copy-right{
+        padding: 0px 15px;
+    }
+}
+@media only screen and (max-width:340px) {
+    .a-free {
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .a-sales {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: block;
+    }
+
+    .green-tick {
+        margin-top: 0px;
+    }
+
+    .trusted-icon i {
+        display: block;
+        margin-top: 10px;
+    }
+    .flex{
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .customer-success-first p {
+        font-size: 16px;
+    }
+    .customer-success-first p i {
+        font-size: 22px;
+    }
+    .logo {
+        font-size: 22px;
+    }
+    .customer-success-second p i {
+        font-size: 22px;
+    }
+    .customer-success-second p {
+        font-size: 16px;
+    }
+    .customer-success-first p img {
+        width: 50px;
+        height: 50px;
+    }
+    .bussiness-manager {
+        font-size: 12px;
+    }
+    .customer-success-second p img {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media only screen and (max-width:290px) {
+    .products-company p i {
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width:260px) {
+    .products-company p i {
+        margin-right: 5px;
+    }
+}
+@media only screen and (max-width:235px) {
+    .fourth-flex{
+        display: flex;
+    }
+}
+@media only screen and (max-width:205px) {
+    .third-flex{
+        display: flex;
+    }
+}
